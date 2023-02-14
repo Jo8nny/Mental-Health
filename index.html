@@ -7,9 +7,12 @@
     <title>Mental Health</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo small.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <wrapper class="wrapper">
@@ -19,13 +22,13 @@
                     <div class="header-row">
                             <div class="header-logo-body">
                                 <a href="#" class="logo">
-                                    <img src="img/Logo.png" alt="logo">
+                                    <img src="img/logo 3.png" alt="logo">
                                 </a>
-                                <div class="header-title">
+                                <!-- <div class="header-title">
                                     <a href="#">
                                         Website name
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="header-menu">
                                 <ul class="menu-list">
@@ -39,18 +42,18 @@
                                             About
                                         </span>
                                     </li>
-                                    <li class="button-services">
+                                    <!-- <li class="button-services">
                                         <span>
                                             Services
                                         </span>
-                                    </li>
+                                    </li> -->
                                     <li class="button-contact">
                                         <span>
                                             Contact
                                         </span>
                                     </li>
                                 </ul>
-                                <div class="header-button">
+                                <div class="take-test-button">
                                     <a href="#">
                                         Take a test
                                     </a>
@@ -76,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="services" id="services">
+            <!-- <div class="services" id="services">
                 <div class="container">
                     <div class="services-title title">
                         Services
@@ -89,9 +92,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="contact" id="contact">
-                <div class="container">
+                <div class="contact-container">
                     <div class="contact-title title">
                         Contact us
                     </div>
@@ -141,6 +144,111 @@
                     </div>
                 </div>
             </div>
+            <div class="test" id="test">
+                <div class="container">
+                    <div class="test-title title">
+                        Test
+                    </div>
+                    <form id="testform">
+                        <div class="test-form-container">
+                            <div class="test-question ">
+                                <div class="question-title">
+                                    1. What is the correct way to declare a JavaScript variable?
+                                </div>
+                                <div class="question-task">
+                                    <div class="task">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="q1" value="a"> variable x;
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q1" value="b"> var x;
+                                            </li>
+                                            <li>    
+                                                <input type="radio" name="q1" value="c"> v x;
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q1" value="d"> declare x;
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="test-question ">
+                                <div class="question-title">
+                                    2. Which of the following is not a JavaScript data type?
+                                </div>
+                                <div class="question-task">
+                                    <div class="task">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="q2" value="a"> string;
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q2" value="b"> boolean;
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q2" value="c"> float;
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q2" value="d"> number;
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="test-question ">
+                                <div class="question-title">
+                                    3. What is the correct way to write a JavaScript array?
+                                </div>
+                                <div class="question-task">
+                                    <div class="task">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="q3" value="a"> var colors = "red", "green", "blue";
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q3" value="b"> var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue");
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q3" value="c"> var colors = ["red", "green", "blue"];
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q3" value="d"> var colors = (1:"red", 2:"green", 3:"blue");
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="test-question ">
+                                <div class="question-title">
+                                    4. What does CSS stand for?
+                                </div>
+                                <div class="question-task">
+                                    <div class="task">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="q4" value="a"> Cascading Style Sheets;
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="b"> Computer Style Sheets;
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="c"> Colorful Style Sheets;
+                                            </li>
+                                            <li>    
+                                                <input type="radio" name="q4" value="d"> Creative Style Sheets;
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <input class="test-button" type="button" value="Submit Test" id="submitButton">
+                        <span class="test-results" id="results"></span>
+                    </form>
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <div class="container">
@@ -148,11 +256,11 @@
                     <div class="footer-rights">
                         <div class="footer-logo">
                             <a href="#">
-                                <img src="img/Logo.png" alt="logo">
+                                <img src="img/logo 3.png" alt="logo">
                             </a>
                         </div>
                         <div class="footer-text">
-                            Copyright © 2023 Website name
+                            Copyright © 2023 
                         </div>
                     </div>
                     <ul class="footer-contacts">

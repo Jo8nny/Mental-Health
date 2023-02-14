@@ -48,7 +48,7 @@ body {
 }
 
 .container {
-  max-width: 1657px;
+  max-width: 1300px;
   margin: 0 auto;
 }  
 
@@ -56,7 +56,7 @@ body {
 
 .header {
     position: relative;
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
 
 .header-wrapper {
@@ -134,12 +134,12 @@ body {
 }
 
 
-.header-button :hover {
+.take-test-button :hover {
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.411);
     transition: 0.2s;
 }
 
-.header-button a {
+.take-test-button a {
     padding: 19px 30px;
     font-family: 'Inter';
     font-style: normal;
@@ -179,35 +179,37 @@ body {
 
 /* About.................... */
 
-.about {
-    padding: 83px 5px 200px 5px;
-    background-color: #58BE5C;
-}
-
 .title {
-    margin-bottom: 83px;
+    margin-bottom: 53px;
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 50px;
     line-height: 77px;
     color: #000000;
 }
+
+.about {
+    padding: 100px 5px 100px 5px;
+    background-color: #53E559;
+}
+
 .about-body {
     display: flex;
     justify-content: space-between;
 }
 
 .about-text {
-    font-family: 'Inter';
+    font-family: 'PT Serif', serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 30px;
     line-height: 44px;
     color: #000000;
     max-width: 981px;
     margin-right: 35px;
+    max-width: 647px;
 }
 
 /* Services.................... */
@@ -217,16 +219,6 @@ body {
     background-color: #2BA02F;
 }
 
-.title {
-    margin-bottom: 83px;
-    text-align: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 77px;
-    color: #000000;
-}
 .services-body {
     display: flex;
     justify-content: space-between;
@@ -247,9 +239,14 @@ body {
 
 /* Contacts.............. */
 
+.contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .contact {
-    padding: 83px 5px 142px 5px;
-    background-color: #58BE5C;
+    padding: 70px 5px 70px 5px;
+    background-color: #08C910;
 }
 
 .contact-columns {
@@ -261,7 +258,6 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 58px;
-    min-width: 486px;
 }
 
 .contact-image-1 {
@@ -281,19 +277,87 @@ body {
 }
 
 .contact-text {
-    font-family: 'Inter';
+    font-family: 'PT Serif', serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 39px;
     color: #000000;
 }
+
+/* Test.............. */
+
+.test {
+    padding: 100px 5px;
+    background-color: #53E559;
+}
+
+.test-title { 
+}
+
+.test-form-container {
+}
+.test-question {
+    margin-bottom: 30px;
+}
+
+.question-title {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    color: #000000;
+}
+.question-task {
+
+}
+.task {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.test-button {
+    background-color: #000000;
+    padding: 10px 30px;
+}
+
+.test-button{
+   
+}
+
+#submitButton {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 39px;
+    color: #ffffff;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+}
+
+.test-results {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    color: #000000;
+}
+
 
 /* Footer................. */
 
 .footer {
     background-color: #CECECE;
-    padding: 26px 5px;
+    padding: 40px 5px;
 }
 
 .footer-row {
