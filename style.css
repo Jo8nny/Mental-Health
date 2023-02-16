@@ -137,9 +137,10 @@ body {
 .take-test-button :hover {
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.411);
     transition: 0.2s;
+    cursor: pointer;
 }
 
-.take-test-button a {
+.take-test-button span {
     padding: 19px 30px;
     font-family: 'Inter';
     font-style: normal;
@@ -327,7 +328,7 @@ body {
 }
 
 .test-button{
-   
+   margin-right: 20px;
 }
 
 #submitButton {
@@ -337,10 +338,14 @@ body {
     font-size: 28px;
     line-height: 39px;
     color: #ffffff;
+    border-radius: 15px;
+    transition: 0.1s;
 }
 
 #submitButton:hover {
     cursor: pointer;
+    background-color: #313030;
+    transition: 0.1s;
 }
 
 .test-results {
