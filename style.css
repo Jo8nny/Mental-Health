@@ -156,20 +156,6 @@ body {
     text-shadow: 1px 1px 1px #000;
 }
 
-/* @keyframes test-button {
-    0% {
-        background: #00f729;
-    }
-
-    50% {
-        background:#49ff01;
-    }
-
-    100% {
-        background: #28fd56;
-    }
-} */
-
 .menu-list li span {
     font-family: 'Inter';
     font-style: normal;
@@ -275,11 +261,6 @@ body {
     background-color: #4cd351;
 }
 
-.test-title { 
-}
-
-.test-form-container {
-}
 .test-question {
     margin-bottom: 30px;
 }
@@ -294,9 +275,7 @@ body {
     text-shadow: 2px 2px 2px #000;
 
 }
-.question-task {
 
-}
 .task {
     font-family: 'PT Serif', serif;
     font-style: normal;
@@ -382,4 +361,228 @@ body {
 
 .footer-contacts li:last-child {
     margin-right: 0px;
+}
+
+
+@media (max-width: 1040px) {
+
+    .logo img {
+        max-width: 170px;
+    }
+
+    .about {
+        padding-bottom: 30px;
+    }
+
+    .title {
+        margin-bottom: 53px;
+        font-size: 40px;
+        line-height: 10px;
+    }
+
+    .about-text {
+        font-size: 25px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .contact {
+        padding-bottom: 0px;
+    }
+
+    .contact-text {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .test {
+        padding: 60px 5px 40px 5px;
+    }
+    
+    .question-title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .task {
+        font-size: 22px;
+        line-height: 37px;
+    }
+
+    .footer-row {
+        flex-wrap: wrap;
+    }
+
+    .footer-logo img {
+        max-width: 170px;
+    }
+
+    .footer-text {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .footer-contacts {
+        align-items: center;
+    }
+
+    .footer-contacts img {
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .menu-list li {
+        margin-right: 25px;
+    }
+
+    .menu-list li:last-child {
+        margin-right: 30px;
+    }
+
+    .menu-list li span {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .take-test-button span {
+        padding: 14px 20px;
+        font-size: 28px;
+    }
+
+    .about {
+        padding: 55px 5px 40px 5px;
+    }
+
+    .title {
+        margin-bottom: 38px;
+        font-size: 33px;
+        line-height: 0px;
+    }
+
+    .about-text {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .contact {
+        padding: 45px 5px 0px 5px;
+    }
+
+    .contact-title {
+        margin-bottom: 40px;
+    }
+
+    .contact-row {
+        margin-bottom: 35px;
+    }
+    
+    .contact-image {
+        margin-right: 20px;
+    }
+
+    .contact-image img {
+        max-width: 50px;
+    }
+
+    .contact-text {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .test {
+        padding: 45px 5px 40px 5px;
+    }
+
+    .footer-rights {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:738px) {
+
+    .footer {
+        padding: 20px 5px;
+    }
+
+    .footer-row {
+        justify-content: center;
+    }
+
+    .footer-rights {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .logo img {
+        max-width: 130px;
+    }
+}
+
+@media (max-width: 597px) {
+
+    .header-row {
+        justify-content: center;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    .about {
+        padding-top: 110px;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .contact-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .test-button-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .test-button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 445px) {
+
+    .header-wrapper {
+        padding-bottom: 40px;
+    }
+
+    .header-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-row {
+        flex-direction: column;
+    }
+
+    .menu-list li {
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .about {
+        padding-top: 180px;
+    }
 }

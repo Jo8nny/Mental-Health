@@ -57,11 +57,8 @@ submitButton.addEventListener('click', function() {
   }
 
   // Display results
-  resultsContainer.innerHTML = `You scored ${score} out of 5.`;
+  resultsContainer.innerHTML = `You scored ${score} out of 4.`;
 });
-
-
-//.........................................................
 
 
 
