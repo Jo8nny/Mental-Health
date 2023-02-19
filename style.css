@@ -401,7 +401,7 @@ body {
     }
 
     .test {
-        padding: 60px 5px 40px 5px;
+        padding: 60px 15px 40px 15px;
     }
     
     .question-title {
@@ -497,7 +497,7 @@ body {
     }
 
     .test {
-        padding: 45px 5px 40px 5px;
+        padding: 45px 15px 40px 15px;
     }
 
     .footer-rights {
@@ -549,6 +549,10 @@ body {
         align-items: center;
     }
 
+    .test {
+        padding: 60px 15px 10px 15px;
+    }
+
     .test-button-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -562,27 +566,48 @@ body {
 @media (max-width: 445px) {
 
     .header-wrapper {
-        padding-bottom: 40px;
+        padding: 10px 5;
     }
 
     .header-menu {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
-    .header-row {
-        flex-direction: column;
+    .menu-list {
+        flex-direction: row;
+    }
+    
+    .menu-list li {
+        margin-bottom: 0px;
+        margin-right: 15px;
     }
 
-    .menu-list li {
-        margin-bottom: 30px;
+    .menu-list li span {
+        font-size: 20px;
+        line-height: 35px;
     }
+
+    .take-test-button span {
+        font-size: 18px;
+        padding: 15px;
+    }
+
 
     .logo {
         margin-bottom: 20px;
+        display: none;
     }
 
     .about {
-        padding-top: 180px;
+        padding-top: 45px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: -10px;
+    }
+
+    .about-text {
+        font-size: 20px;
+        line-height: 33px;
     }
 }
